@@ -7,7 +7,6 @@ for i in range(n):
     l.append(x)
 for i in l:
     if i not in l1:
-        l1.append(i)
         if l.count(i)%2!=0:
             print(l1)
             
